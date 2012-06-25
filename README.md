@@ -4,13 +4,13 @@ Sample app that can be deployed to Heroku that uses https://github.com/anandbn/h
 
 ### To get started:
 
-1. Clone this repo (git clone )
+1. Clone this repo (git clone git@github.com:anandbn/apache-sample.git)
 2. Create a Heroku app
 
-    heroku create --buildpack https://github.com/anandbn/heroku-buildpack-apache
+    <code>heroku create --buildpack https://github.com/anandbn/heroku-buildpack-apache<code>
     
 3. Make changes to your httpd.conf
 4. Commit your changes to heroku
    
-    git push heroku master
+    <code>git push heroku master</code>
 
